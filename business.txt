@@ -1,0 +1,8 @@
+- Todos los usuarios son válidos.
+- No existe autenticación ni sesiones.
+- El identificador del usuario se pasa por header: X-User-Id.
+- Se prioriza optimización de lectura sobre escritura.
+- Redis es la opción recomendada para producción (lecturas rápidas, TTLs configurables, timeline con sorted sets).
+- Para este desafío se usa almacenamiento en redis dockerizado.
+- Se permite consistencia eventual.
+- La solución debe poder escalar horizontalmente.
