@@ -40,7 +40,7 @@ Necesitás tener instalado al menos uno de los siguientes entornos de contenedor
 
 1. Cloná el repositorio:
 
-   git clone https://github.com/tuusuario/microblogging.git
+   git clone https://github.com/jvega-laf/microblogging.git
    cd microblogging
 
 2. Construí y levantá los servicios:
